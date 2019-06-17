@@ -1,0 +1,24 @@
+.navbar{
+    background-color: $white;
+}
+
+.navbar__logo{
+    background-color: $smoky-black;
+    color: $white;
+    font-family: $old-standard;
+    font-size: $xx-large;
+    font-weight: 700;
+    text-decoration: none;
+    padding: .8em .6em;
+
+    &:hover{
+        color: $white;
+    }
+}
+
+.navbar__link{
+    color: $smoky-black;
+    font-weight: 700;
+    font-size: $large;
+    padding: 1em 1.25em !important;
+}

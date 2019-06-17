@@ -1,0 +1,24 @@
+.description{
+    padding: 6vw;
+
+}
+
+@media (min-width: 576px) {
+    .description{
+        padding: 6vw;
+    
+        .description__detail{
+            padding-right: 15vw;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .description{
+        padding: 4vw;
+
+        .description__detail{
+            padding-right: 4vw;
+        }
+    }
+}

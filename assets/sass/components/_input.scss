@@ -1,0 +1,14 @@
+.input__label{
+    font-family: $old-standard;
+    color: $white; 
+    margin-bottom: .25rem !important;
+}
+
+.input{
+    border: 1px solid $granite-gray;
+    border-radius: 0;
+
+    &::placeholder{
+        color: $smoky-black;
+    }
+}

@@ -1,0 +1,22 @@
+.button{
+    background-color: $white;
+    border: 1px solid $smoky-black;
+    color: $smoky-black; 
+    font-size: $large;
+    padding: .5em 2em;
+    font-weight: $bold;
+
+    &:hover{
+        border: 1px solid $light-gray;
+    }
+
+    &:focus{
+        border: 1px solid $light-gray;
+        color: $light-gray;
+    }
+
+    @media screen and (max-width: 576px) {
+        font-size: $x-small;
+        padding: .5em 1em;
+    }
+}

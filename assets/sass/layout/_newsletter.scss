@@ -1,0 +1,43 @@
+.newsletter{
+    position: relative;
+}
+
+.newsletter__left{
+    background-color: $smoky-black;
+    padding: 5vw 23vw 5vw 8vw;
+
+    h2{
+        color: $white;
+    }
+}
+
+.newsletter__logo{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: $xxx-large;
+    height: 100%;
+    font-size: $xx-large;
+    background-color: $white;
+    text-align: center;
+    h3{
+        position: absolute;
+        margin: auto;
+        transform: rotate(90deg);
+        top: 45%;
+        left: -90%;
+        
+    }
+}
+
+@media (min-width: 576px) {
+    .newsletter__left{
+        padding: 10vw 20vw 10vw 10vw;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .newsletter__left{
+        padding: 3vw 10vw 4vw 4vw;
+    }
+}
